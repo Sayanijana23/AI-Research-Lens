@@ -76,6 +76,98 @@ Docker	     Qdrant deployment
     ├── rag.py
     └── vector_db.py
 ```
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sayanijana23/AI-Research-Lens.git
+cd AI-Research-Lens
+```
+
+Create and activate a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+```bash
+# On Windows:
+.venv\Scripts\activate
+
+# On macOS or Linux:
+source .venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Create a `.env` file for Gemini and Hugging Face support:
+
+```env
+GOOGLE_API_KEY=your_google_api_key_here
+
+HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_token_here
+```
+
+## Run Qdrant
+
+Make sure **Docker Desktop** is installed and running.
+
+Start Qdrant with Docker Compose:
+
+```bash
+docker compose up -d
+```
+
+Check that Qdrant is running:
+
+```bash
+docker compose ps
+```
+
+Stop Qdrant with:
+
+```bash
+docker compose down
+```
+
+## Run Ollama
+
+Install Ollama:
+
+https://ollama.com/download
+
+Pull the required model:
+
+```bash
+ollama pull llama3.2
+```
+
+Check installed models:
+
+```bash
+ollama list
+```
+
+## Run the Application
+
+Start the Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+Open the local URL shown in the terminal, usually:
+
+```text
+http://localhost:8501
+```
+
+
 
 ## Limitations
 
