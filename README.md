@@ -38,9 +38,11 @@ Hybrid Retrieval + RRF
 LLM
     ↓
 Answer + Source Citations
+```
+---
 
-
-## 🛠️ Tech Stack
+```text
+🛠️ Tech Stack
 Technology	   Purpose
 Python	     Core application
 Streamlit	   Web interface
@@ -52,12 +54,11 @@ Gemini	     LLM
 Ollama	     Local LLM
 Hugging Face LLM support
 Docker	     Qdrant deployment
+```
 
-
-
-
+---
+```
 ## Project Structure
-
 .
 ├── app.py
 ├── requirements.txt
@@ -74,8 +75,7 @@ Docker	     Qdrant deployment
     ├── pdf_loader.py
     ├── rag.py
     └── vector_db.py
-
-
+```
 
 ## Limitations
 
