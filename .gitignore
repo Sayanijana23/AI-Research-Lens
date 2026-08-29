@@ -1,0 +1,5 @@
+.venv
+key1.env
+__pycache__
+qdrant_data
+notebooks
