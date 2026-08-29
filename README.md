@@ -1,28 +1,5 @@
 # 🔬 ResearchLens — AI Research Paper Assistant
 
-<p align="center">
-  <img src="assets/demo_1.png" alt="ResearchLens" width="900"/>
-</p>
-
-<p align="center">
-  <strong>Read less. Understand more.</strong>
-</p>
-
-<p align="center">
-  AI-powered assistant for asking questions and extracting insights from research papers.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue" />
-  <img src="https://img.shields.io/badge/Streamlit-red" />
-  <img src="https://img.shields.io/badge/LangChain-green" />
-  <img src="https://img.shields.io/badge/Qdrant-yellow" />
-  <img src="https://img.shields.io/badge/RAG-Enabled-purple" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-black" />
-</p>
-
----
 
 ## 📌 Overview
 
@@ -65,16 +42,16 @@ Answer + Source Citations
 
 ## 🛠️ Tech Stack
 Technology	   Purpose
-Python	      Core application
+Python	     Core application
 Streamlit	   Web interface
 LangChain	   RAG pipeline
-Qdrant	      Vector database
+Qdrant	     Vector database
 FastEmbed	   Embeddings
-BM25	         Keyword retrieval
-Gemini	      LLM
-Ollama	      Local LLM
-Hugging Face	LLM support
-Docker	      Qdrant deployment
+BM25	       Keyword retrieval
+Gemini	     LLM
+Ollama	     Local LLM
+Hugging Face LLM support
+Docker	     Qdrant deployment
 
 
 
@@ -110,9 +87,10 @@ Docker	      Qdrant deployment
 
 ## Demo
 
-<p align="center">
-  <img src="assets/demo_1.jpeg" alt="Demo 1" width="900"/>
-  <img src="assets/demo_2.jpeg" alt="Demo 2" width="900"/>
-  <img src="assets/demo_3.jpeg" alt="Demo 3" width="900"/>
-</p>
+<img width="1600" height="757" alt="demo_1" src="https://github.com/user-attachments/assets/e815475f-b64a-4451-baab-9a8fdaff3780" />
+<img width="1600" height="764" alt="demo_2" src="https://github.com/user-attachments/assets/b124ccb7-6007-44bd-923d-25b2117f267e" />
+<img width="1600" height="740" alt="demo_3" src="https://github.com/user-attachments/assets/40ab9663-93a1-4571-ba56-cfbcd3de1afd" />
+
+
+
 
